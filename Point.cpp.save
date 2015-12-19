@@ -1,0 +1,26 @@
+#include "Point.h"
+#include <iostream>
+using namespace std;
+
+Point::Point(int a,int b)
+{
+	x=a;
+	y=b;
+	show();
+	cout<<"Fonction de Constructeur Point exécutée"<<endl;
+}
+
+int Point::show()
+{
+	cout<<"Les coordonées du Point: x= "<<this->x<<" y= "<<this->y<<endl;
+	cout<<"Fonction de Point show exécutée"<<endl;
+	return 0;
+}
+
+Point::~Point()
+{
+
+}
+
+int getX();
+Point::
